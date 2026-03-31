@@ -1,0 +1,16 @@
+/*
+Escreva um algoritmo que solicite do usuário um valor inteiro, calcule seu valor ao 
+quadrado atribua a uma variável e imprima na tela. 
+*/
+
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+    int a, result;
+ printf("Digite um número: ");
+ scanf("%d", &a);
+ result = pow(a, 2);
+ printf("O número digitado elevado ao quadrado é: %d", result);
+ return (0);
+}
