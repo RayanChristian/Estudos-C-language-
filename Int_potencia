@@ -1,0 +1,20 @@
+/*
+Escreva um algoritmo que solicite dois valores inteiros do usuário, 
+atribua a duas variáveis, calcule a potência do primeiro elevado pelo segundo e 
+imprima-os na tela juntamente com o resultado do cálculo. 
+*/
+
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+    int base, expo, result;
+ printf("Digite o primeiro valor: ");
+ scanf("%d", &base);
+ printf("Digite o segundo valor: ");
+ scanf("%d", &expo);
+ result = pow(base, expo);
+ printf("primeiro valor: %d, segundo valor: %d\n" "o resultado da potenciação do primeiro\
+ número pelo segundo numero é: %d", base, expo, result);
+ return(0);
+}
