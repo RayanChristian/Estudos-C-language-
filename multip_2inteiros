@@ -1,0 +1,18 @@
+/*
+Escreva um algoritmo que solicite dois valores inteiros do usuário, 
+atribua a duas variáveis, multiplique os dois valores e imprima-os na tela 
+juntamente com o resultado do cálculo. 
+*/
+
+#include <stdio.h>
+int main(){
+    int a,b;
+ printf("Digite o primeiro valor: ");
+ scanf("%d", &a);
+ printf("Digite o segundo valor: ");
+ scanf("%d", &b);
+ int multi = (a * b);
+ printf("primeiro valor: %d, segundo valor: %d\n" "resultado da multiplicação entre os\
+ dois numeros: %d\n", a, b, multi);
+ return(0);
+}
