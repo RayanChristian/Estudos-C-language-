@@ -1,0 +1,15 @@
+/*Escreva um algoritmo que solicite do usuário o valor da base 
+e da altura de um retângulo, 
+calcule o valor da área e imprima na tela.*/
+
+#include <stdio.h>
+int main(){
+    int b,h,a; 
+printf ("digite o valor da base: ");
+scanf("%d", &b);
+printf("Digite o valor da altura: ");
+scanf ("%d", &h);
+a = b*h;
+printf ("O valor da area do retangulo e: %d", a);
+return(0);
+}
