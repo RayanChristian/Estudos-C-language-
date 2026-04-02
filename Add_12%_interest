@@ -1,0 +1,14 @@
+/*Escreva um algoritmo que solicite do usuário o valor de uma compra e mostre 
+o valor acrescido de 12% de juros.*/
+
+#include <stdio.h>
+#include <math.h>
+int main(){
+    float a, b, c;
+    printf("Digite o valor da compra: ");
+    scanf ("%f", &a);
+    b = 0.12*a; //12% do valor recebido
+    c = a + b;
+    printf ("o valor com juros será de: %.2f", c);
+    return (0);
+}
