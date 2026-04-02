@@ -1,0 +1,15 @@
+/*Escreva um algoritmo que solicite do usuário um valor com três casas e 
+imprima o algarismo da casa das dezenas*/
+// 3 casas = 3 algarismos
+
+#include <stdio.h>
+
+int main(){
+    int a, b, c;
+    printf("digite um numero com 3 casas/algarismos: ");
+    scanf("%d", &a);
+    b = a/10;
+    c = b % 10;
+    printf("o algarismo da casa das dezenas e: %d", c);
+    return(0);
+}
