@@ -1,0 +1,28 @@
+/*Construa um algoritmo que calcule a quantidade de latas de tinta 
+necessárias e o custo para pintar tanques cilíndricos de combustível, 
+onde são fornecidos a altura e o raio desse cilindro. Sabendo que:
+	A lata de tinta custa R$ 5,00;
+	Cada lata contém 5 litros;
+	Cada litro de tinta pinta 3 metros quadrados*/
+	
+	#include <stdio.h>
+	#include <math.h>
+	int main()
+	{
+	float h, r, At, m2plata, cst;
+	int qtdlatas;
+	printf ("Digite a altura do cilindro: ");
+    scanf ("%f", &h); //altura
+    printf("Digite o valor do raio do cilindro: ");
+    scanf ("%f", &r); //raio do cilindro
+    float rslata = 5; // reais por lata
+    float L = 5; // litros por lata
+    float m2pL = 3; // metros quadrados por litro
+    m2plata = L * m2pL; // metros quadrados por lata
+    At = 2 * M_PI * r * (r+h); // fórmula simplificada da área total (cilindro)
+    qtdlatas = At / m2plata; // fórmula para determinar a quantidade de latas necessárias
+    cst = qtdlatas * rslata; // fórmula para determinar o custo necessário
+    printf ("A quantidade de latas de tintas necessárias é: %d\n", qtdlatas);
+    printf ("O custo para pintar os tanques será de: R$ %.2f\n", cst);
+    return (0);
+    }
