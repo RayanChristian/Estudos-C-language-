@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main(){
+
+int num;
+
+printf("\nDigite um valor: ");
+scanf("%d", &num);
+
+if (num >= 20 && num <= 90){ 
+/* && = "e" (ambas as sentenças devem ser verdadeiras para o resultado 
+ser considerado verdadeiro, se uma delas for falsa, toda a sentença será considerada falsa */
+
+    printf("\nO valor digitado esta entre 20 e 90");
+}
+else{
+    printf("O valor digitado nao esta entre 20 e 90");
+return(0);
+    }
+}
