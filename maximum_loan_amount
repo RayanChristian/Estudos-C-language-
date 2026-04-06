@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+int main(){
+
+float pmt, sbruto, vmax;
+printf("Digite o valor do salario bruto:\n");
+scanf("%f", &sbruto);
+printf("Digite o valor da prestacao:\n");
+scanf("%f", &pmt);
+
+vmax = sbruto * 0.3;
+
+	printf("\nValor max da PMT: R$ %.2f", vmax);
+	printf("\nValor da PMT: R$ %.2f", pmt);
+
+if (pmt <= vmax){
+	printf("\nEmprestimo OK");
+}else{
+	printf("\nEmprestimo Nao autorizado");
+	}
+}
