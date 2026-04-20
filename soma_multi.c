@@ -49,7 +49,7 @@ int main(void)
     printf("\t|--------------------------------------------|");
     printf("\n\t\tC + D = %d | C x D = %d\n", SOMA_CD, MULTI_CD);
     printf("\t|--------------------------------------------|");
-    
-	return 0;
 
+	system("pause");
+	return 0;
 }
