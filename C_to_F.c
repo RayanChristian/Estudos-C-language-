@@ -1,3 +1,7 @@
+/* Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit. A fórmula de conversão de temperatura 
+a ser utilizada é F = (9 C+160)/5, em que a variável F representa a temperatura em graus Fahrenheit e a variável C representa 
+a temperatura em graus Celsius*/
+
 #include <stdio.h>
 int main(void)
 {
