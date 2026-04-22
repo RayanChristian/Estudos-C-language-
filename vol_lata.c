@@ -1,3 +1,6 @@
+/*Calicular e apresentar o valor do volume de uma lata de óleo, utilizando a förmula V = 3.14159 * R * R * A, 
+em que as variáveis V, R e A representam, respectivamente, o volume, o raio e a altura.*/
+
 #include <stdio.h>
 int main ()
 {
